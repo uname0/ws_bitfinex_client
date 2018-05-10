@@ -1,14 +1,14 @@
 # ws_bitfinex_client
 
 
-python version:
+## python version:
 Python 3.6.5
 
-tested on:
+## tested on:
 Linux arch 4.16.6-1-ARCH
 
 
-* requirements:
+### requirements:
 	* certifi==2018.4.16
 	* chardet==3.0.4
 	* idna==2.6
