@@ -8,25 +8,13 @@
 	Linux arch 4.16.6-1-ARCH
 
 
-### requirements:
-	certifi==2018.4.16
-	chardet==3.0.4
-	idna==2.6
-	requests==2.18.4
-	six==1.11.0
-	urllib3==1.22
-	websocket-client==0.47.0
-
-
 ### Installation
-	(git clone this repository)
-	$ mkvirtualenv ws_bitfinex_client
-	$ workon ws_bitfinex_client
-	$ pip install websocket-client
-	$ pip install requests
+	$ git clone https://github.com/uname0/ws_bitfinex_client_mod.git
+	$ cd ws_bitfinex_client_mod
+	$ sudo pip3.6 install -r requirements.txt
 	$ chmod +x client.py
 
-	отредактировать конфиг. добавить адресс(to_url), логин(login) и пас(pass) для авторизации на сервере.
+	отредактировать конфиг в файле config.json. добавить адресс(to_url), логин(login) и пас(pass) для авторизации на сервере.
 	также добавить торговую пару(pair), которая будет пересылаться клиенту и тип цены(price_type).
 
 	$ ./client.py
